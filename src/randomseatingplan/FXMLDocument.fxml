@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import java.util.ArrayList?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" stylesheets="@fxmlnext.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="randomseatingplan.FXMLDocumentController">
+    <children>
+        <Button fx:id="button" layoutX="400.0" layoutY="25.0" onAction="#handleButtonAction" text="Random!" />
+      <Label layoutX="20.0" layoutY="15.0" prefHeight="50.0" prefWidth="227.0" text="Inputkan jumlah siswa :" textAlignment="CENTER" textOverrun="CENTER_WORD_ELLIPSIS" />
+      <TextField fx:id="jumlah" layoutX="250.0" layoutY="25.0" />
+      <Button fx:id="b1" layoutX="300.0" layoutY="200.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" />
+      <Button fx:id="b2" layoutX="250.0" layoutY="200.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" />
+      <Button fx:id="b3" layoutX="500.0" layoutY="200.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" />
+      <Button layoutX="150.0" layoutY="100.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="500.0" text="Papan Tulis" />
+      <Button layoutX="50.0" layoutY="140.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" text="Meja Guru" />
+      <Button fx:id="b4" layoutX="450.0" layoutY="200.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" />
+      <Button fx:id="b5" layoutX="100.0" layoutY="200.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" />
+      <Button fx:id="b6" layoutX="50.0" layoutY="200.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" />
+      <Button fx:id="b7" layoutX="700.0" layoutY="200.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" />
+      <Button fx:id="b8" layoutX="650.0" layoutY="200.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" />
+      <Button fx:id="b13" layoutX="100.0" layoutY="275.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" />
+      <Button fx:id="b14" layoutX="50.0" layoutY="275.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" />
+      <Button fx:id="b21" layoutX="100.0" layoutY="350.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" />
+      <Button fx:id="b22" layoutX="50.0" layoutY="350.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" />
+      <Button fx:id="b29" layoutX="100.0" layoutY="425.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" />
+      <Button fx:id="b30" layoutX="50.0" layoutY="425.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" />
+      <Button fx:id="b37" layoutX="100.0" layoutY="500.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" />
+      <Button fx:id="b38" layoutX="50.0" layoutY="500.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" />
+      <Button fx:id="b9" layoutX="300.0" layoutY="275.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" />
+      <Button fx:id="b10" layoutX="250.0" layoutY="275.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" />
+      <Button fx:id="b17" layoutX="300.0" layoutY="350.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" />
+      <Button fx:id="b18" layoutX="250.0" layoutY="350.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" />
+      <Button fx:id="b25" layoutX="300.0" layoutY="425.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" />
+      <Button fx:id="b26" layoutX="250.0" layoutY="425.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" />
+      <Button fx:id="b33" layoutX="300.0" layoutY="500.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" />
+      <Button fx:id="b34" layoutX="250.0" layoutY="500.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" />
+      <Button fx:id="b11" layoutX="500.0" layoutY="275.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" />
+      <Button fx:id="b12" layoutX="450.0" layoutY="275.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" />
+      <Button fx:id="b19" layoutX="500.0" layoutY="350.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" />
+      <Button fx:id="b20" layoutX="450.0" layoutY="350.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" />
+      <Button fx:id="b27" layoutX="500.0" layoutY="425.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" />
+      <Button fx:id="b28" layoutX="450.0" layoutY="425.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" />
+      <Button fx:id="b35" layoutX="500.0" layoutY="500.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" />
+      <Button fx:id="b36" layoutX="450.0" layoutY="500.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" />
+      <Button fx:id="b15" layoutX="700.0" layoutY="275.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" />
+      <Button fx:id="b16" layoutX="650.0" layoutY="275.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" />
+      <Button fx:id="b23" layoutX="700.0" layoutY="350.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" />
+      <Button fx:id="b24" layoutX="650.0" layoutY="350.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" />
+      <Button fx:id="b31" layoutX="700.0" layoutY="425.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" />
+      <Button fx:id="b32" layoutX="650.0" layoutY="425.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" />
+      <Button fx:id="b39" layoutX="700.0" layoutY="500.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" />
+      <Button fx:id="b40" layoutX="650.0" layoutY="500.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" />
+    </children>
+    
+    <fx:define>
+    <ArrayList fx:id="buttonListFull">
+        <fx:reference source="b1" />
+        <fx:reference source="b2" /> 
+        <fx:reference source="b3" /> 
+        <fx:reference source="b4" /> 
+        <fx:reference source="b5" />
+        <fx:reference source="b6" /> 
+        <fx:reference source="b7" /> 
+        <fx:reference source="b8" /> 
+        <fx:reference source="b9" /> 
+        <fx:reference source="b10" /> 
+        <fx:reference source="b11" />
+        <fx:reference source="b12" /> 
+        <fx:reference source="b13" /> 
+        <fx:reference source="b14" /> 
+        <fx:reference source="b15" />
+        <fx:reference source="b16" /> 
+        <fx:reference source="b17" /> 
+        <fx:reference source="b18" /> 
+        <fx:reference source="b19" /> 
+        <fx:reference source="b20" />
+        <fx:reference source="b21" /> 
+        <fx:reference source="b22" /> 
+        <fx:reference source="b23" /> 
+        <fx:reference source="b24" /> 
+        <fx:reference source="b25" />   
+        <fx:reference source="b26" /> 
+        <fx:reference source="b27" /> 
+        <fx:reference source="b28" /> 
+        <fx:reference source="b29" /> 
+        <fx:reference source="b30" />
+        <fx:reference source="b31" /> 
+        <fx:reference source="b32" /> 
+        <fx:reference source="b33" /> 
+        <fx:reference source="b34" /> 
+        <fx:reference source="b35" /> 
+        <fx:reference source="b36" /> 
+        <fx:reference source="b37" /> 
+        <fx:reference source="b38" /> 
+        <fx:reference source="b39" /> 
+        <fx:reference source="b40" />    
+    </ArrayList>
+    </fx:define>
+    
+    <fx:define>
+    <ArrayList fx:id="buttonListHalf">
+        <fx:reference source="b1" />
+        <fx:reference source="b3" /> 
+        <fx:reference source="b5" />
+        <fx:reference source="b7" /> 
+        <fx:reference source="b9" />  
+        <fx:reference source="b11" />
+        <fx:reference source="b13" /> 
+        <fx:reference source="b15" />
+        <fx:reference source="b17" /> 
+        <fx:reference source="b19" /> 
+        <fx:reference source="b21" /> 
+        <fx:reference source="b23" />  
+        <fx:reference source="b25" />   
+        <fx:reference source="b27" /> 
+        <fx:reference source="b29" /> 
+        <fx:reference source="b31" /> 
+        <fx:reference source="b33" /> 
+        <fx:reference source="b35" /> 
+        <fx:reference source="b37" /> 
+        <fx:reference source="b39" />   
+    </ArrayList>
+    </fx:define>
+</AnchorPane>
