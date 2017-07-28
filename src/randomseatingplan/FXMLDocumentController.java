@@ -37,11 +37,11 @@ public class FXMLDocumentController implements Initializable {
         String jml = jumlah.getText();
         int j;
         if (checkInput(jml) == false) {
-            JOptionPane.showMessageDialog(null, "Input salah! Masukkan bilangan bulat!");
+            JOptionPane.showMessageDialog(null, "Input salah! Hanya menerima angka!");
         } else {
             j = Integer.parseInt(jml);
             if (j > 40 || j < 1) {
-                JOptionPane.showMessageDialog(null, "Jumlah siswa 1-40");
+                JOptionPane.showMessageDialog(null, "Input angka antara 1-40");
             } else {
                 acak(j);
             }
@@ -53,8 +53,7 @@ public class FXMLDocumentController implements Initializable {
         boolean status = false;
         if (!str.isEmpty()) {
             for (char c : str.toCharArray()) {
-                if (status = Character.isDigit(c)) {
-                    break;
+                if (status = Character.isDigit(c)) {  
                 }
             }
         }
